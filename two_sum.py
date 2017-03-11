@@ -1,3 +1,4 @@
+# coding: utf-8
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -17,3 +18,9 @@ class Solution(object):
             
             # 若曾经未见过它的另一半，先将它本身存下来
             lookup[num] = i
+
+# 试调用
+s = Solution()
+nums = [1, 3, 5, 9]
+
+print s.twoSum(nums, 10)
